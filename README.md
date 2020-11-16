@@ -34,7 +34,7 @@ To view some example results, you can directly run demo.m on about 50 images. Th
 >> run demo.m;
 ```
 
-## Relationship and Preidcate Detection 
+## Relationship and Predicate Detection 
 To detect relationship in our [dataset](http://cs.stanford.edu/people/ranjaykrishna/vrd/), please run `relationship_phrase_detection.m`. Each image will have a set of relationships (<subject, predicate, object>) predicted with bounding boxes for the subjects and objects as bounding boxes. The relationship detection results (including zero-shot preformance) will also be reported. Predicate detection results can be obtained by running `predicate_detection.m`. 
 
 For each image, we provide our VGG based object detection results (object category, confidence score and bounding boxes) and CNN scores on the union of the bounding boxes of pairs of participating objects in each relationship. You can also train your own object detection models using newer state of the art architechures like ResNet. 
